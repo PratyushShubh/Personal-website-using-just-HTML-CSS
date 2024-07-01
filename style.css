@@ -1,6 +1,12 @@
-
+body{
+    background-color: #FFF2D7;
+}
 .profile-container {
     position: relative;
+}
+.banner img{
+    width:100%;
+    height:300px;
 }
 
 .Profile_pic img {
@@ -9,20 +15,49 @@
     border-radius: 50%;
     position: absolute;
     left: 20px;
-    top: 200px;
+    top: 100px;
 }
 .Introduction h1,h2{
     text-align: center;
 
 }
+
+.dotted-line {
+    border-top: 2px dotted #000; /* Creates a dotted top border */
+    margin: 20px 0; /* Adds some space above and below the line */
+}
+
+
+
+#Projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#project1,#project2 {
+    background: #F8C794;
+    
+   
+}
+
 #project1 img{
-    height:400px;
-    width:600px;
+    height:200px;
+    width:300px;
     margin: 20px; /* Add some space around the image */
             border: 2px solid black; /* Add a border to the image */
             padding: 5px; /* Add padding inside the border */
             background-color: navy;
             float:left;
+}
+#project2 img{
+    height:200px;
+    width:300px;
+    margin: 20px; /* Add some space around the image */
+            border: 2px solid black; /* Add a border to the image */
+            padding: 5px; /* Add padding inside the border */
+            background-color: navy;
+            float:right;
+            clear:both;
 }
 #linkdeln img{
     width: 50px;
@@ -45,7 +80,7 @@ display: inline-block;
    
 display: inline-block;}
 *{
-    font-family: papyrus;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .connection{
     clear: both;
@@ -56,7 +91,7 @@ footer{
 }
 .jiit {
     display:inline-block;
-    background-color: rgb(0, 217, 255);
+    background-color:#F8C794;
     height: 130px; /* Adjust the height as needed */
     margin-left:20px;
     border-radius: 4px;
@@ -65,7 +100,7 @@ footer{
 }
 .xii {
     display:inline-block;
-    background-color: rgb(0, 217, 255);
+    background-color:#F8C794;
     height: 130px; /* Adjust the height as needed */
     margin-left:20px;
     border-radius: 4px;
@@ -74,10 +109,45 @@ footer{
 }
 .dps {
     display:inline-block;
-    background-color: rgb(0, 217, 255);
+    background-color:#F8C794;
     height: 130px; /* Adjust the height as needed */
     margin-left:20px;
     border-radius: 4px;
     margin-bottom: 10px;
     
+}
+
+.navigation {
+    background: #D8AE7E; 
+    text-align: center; /* Center-align text within the navigation div */
+
+}
+
+.navigation ul {
+    list-style-type: none; /* Remove the default bullet points */
+    padding: 0; /* Remove default padding */
+    display: inline-block; /* Make the list inline-block to center it */
+}
+
+.navigation ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Add space between list items */
+}
+
+.navigation ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link color */
+    font-weight: bold; /* Make links bold */
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+#Education {
+    display: flex;
+    
+
+}
+#Projects *{
+    text-align: justify;
 }
