@@ -1,0 +1,83 @@
+
+.profile-container {
+    position: relative;
+}
+
+.Profile_pic img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+.Introduction h1,h2{
+    text-align: center;
+
+}
+#project1 img{
+    height:400px;
+    width:600px;
+    margin: 20px; /* Add some space around the image */
+            border: 2px solid black; /* Add a border to the image */
+            padding: 5px; /* Add padding inside the border */
+            background-color: navy;
+            float:left;
+}
+#linkdeln img{
+    width: 50px;
+    height:50px;
+    display:inline-block;
+}
+#github img{
+    width: 50px;
+    height:50px;
+display: inline-block;
+    
+}
+#linkdeln{
+    margin: 10px;
+    
+    display:inline-block;
+}
+#github{
+    margin: 10px;
+   
+display: inline-block;}
+*{
+    font-family: papyrus;
+}
+.connection{
+    clear: both;
+}
+
+footer{
+    clear: both;
+}
+.jiit {
+    display:inline-block;
+    background-color: rgb(0, 217, 255);
+    height: 130px; /* Adjust the height as needed */
+    margin-left:20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    
+}
+.xii {
+    display:inline-block;
+    background-color: rgb(0, 217, 255);
+    height: 130px; /* Adjust the height as needed */
+    margin-left:20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    
+}
+.dps {
+    display:inline-block;
+    background-color: rgb(0, 217, 255);
+    height: 130px; /* Adjust the height as needed */
+    margin-left:20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    
+}
