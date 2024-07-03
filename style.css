@@ -1,5 +1,6 @@
 body{
     background-color: #FFF2D7;
+    
 }
 .profile-container {
     position: relative;
@@ -22,20 +23,41 @@ body{
 
 }
 
+
 .dotted-line {
     border-top: 2px dotted #000; /* Creates a dotted top border */
     margin: 20px 0; /* Adds some space above and below the line */
 }
 
+.exp1_description{
+    background-color:#F8C794;
+    display:inline-block;
+    border: 1px solid #000; /* Example border */
+    border-radius: 15px; /* Rounds the corners */
+    padding: 10px; /* Example padding */
+}
+.exp1_points{
+    display:block;
+}
+* a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link color */
+    font-weight: bold; /* Make links bold */
+}
 
-
+* a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
 #Projects {
     display: flex;
     flex-direction: column;
 }
 
-#project1,#project2 {
+#project1,#project2,#project3 {
     background: #F8C794;
+    border: 1px solid #000; /* Example border */
+    border-radius: 15px; /* Rounds the corners */
+    padding: 10px; /* Example padding */
     
    
 }
@@ -57,6 +79,16 @@ body{
             padding: 5px; /* Add padding inside the border */
             background-color: navy;
             float:right;
+            clear:both;
+}
+#project3 img{
+    height:200px;
+    width:300px;
+    margin: 20px; /* Add some space around the image */
+            border: 2px solid black; /* Add a border to the image */
+            padding: 5px; /* Add padding inside the border */
+            background-color: navy;
+            float:left;
             clear:both;
 }
 #linkdeln img{
@@ -94,8 +126,11 @@ footer{
     background-color:#F8C794;
     height: 130px; /* Adjust the height as needed */
     margin-left:20px;
-    border-radius: 4px;
+    
     margin-bottom: 10px;
+    border: 1px solid #000; /* Example border */
+    border-radius: 15px; /* Rounds the corners */
+    padding: 10px; /* Example padding */
     
 }
 .xii {
@@ -103,8 +138,11 @@ footer{
     background-color:#F8C794;
     height: 130px; /* Adjust the height as needed */
     margin-left:20px;
-    border-radius: 4px;
+   
     margin-bottom: 10px;
+    border: 1px solid #000; /* Example border */
+    border-radius: 15px; /* Rounds the corners */
+    padding: 10px; /* Example padding */
     
 }
 .dps {
@@ -114,6 +152,9 @@ footer{
     margin-left:20px;
     border-radius: 4px;
     margin-bottom: 10px;
+    border: 1px solid #000; /* Example border */
+    border-radius: 15px; /* Rounds the corners */
+    padding: 10px; /* Example padding */
     
 }
 
@@ -151,3 +192,70 @@ footer{
 #Projects *{
     text-align: justify;
 }
+.btn2 {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #fefefe;
+    text-transform: uppercase;
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.3s;
+    border-radius: 10px;
+
+  }
+  
+  .btn2::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - -2px);
+    background-color: #F8C794;
+    transition: 0.3s ease-out;
+    transform: scaleY(1);
+    border-radius: 10px;
+  }
+  
+  .btn2::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 50px);
+    background-color: #F8C794;
+    transition: 0.3s ease-out;
+    transform: scaleY(1);
+    border-radius: 10px;
+  }
+  
+  .btn2:hover::before {
+    transform: translateY(-25px);
+    height: 0;
+  }
+  
+  .btn2:hover::after {
+    transform: scaleX(0);
+    transition-delay: 0.15s;
+  }
+  
+  .btn2:hover {
+    border: 2px solid #fcfbfb;
+  }
+  
+  .btn2 span {
+    position: relative;
+    z-index: 3;
+    
+  }
+  
+  button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    border-radius:10px;
+  }
