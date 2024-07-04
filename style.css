@@ -53,7 +53,7 @@ body{
     flex-direction: column;
 }
 
-#project1,#project2,#project3 {
+#project1,#project2,#project3,#project4 {
     background: #F8C794;
     border: 1px solid #000; /* Example border */
     border-radius: 15px; /* Rounds the corners */
@@ -71,7 +71,7 @@ body{
             background-color: navy;
             float:left;
 }
-#project2 img{
+#project2 img,#project4 img{
     height:200px;
     width:300px;
     margin: 20px; /* Add some space around the image */
